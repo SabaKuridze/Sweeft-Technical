@@ -91,7 +91,7 @@ const HistoryPage: React.FC = () => {
       )}
       {selectedImage && (
         <div className='modal'>
-          <img src={selectedImage.urls.regular} alt={`Image`} />
+          <img src={selectedImage.urls.full} alt={`Image`} />
           <div className='modal-info'>
             <p>Downloads: {selectedImage.downloads.toLocaleString()}</p>
             <p>Views: {selectedImage.views.toLocaleString()}</p>
